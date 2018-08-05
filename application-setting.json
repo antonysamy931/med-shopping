@@ -1,0 +1,6 @@
+{
+    "SecureConnectionEnable":false,
+    "HttpDefaultPort":9890,
+    "HttpsDefaultPort":9443,
+    "Service.Url":"http://localhost:8880/"
+}
