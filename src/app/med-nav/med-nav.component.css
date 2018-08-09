@@ -14,4 +14,36 @@
 .custom-nav-padding{
   padding-left: 8% !important;
   padding-right: 8% !important;
+  padding-bottom: 0% !important;
+  padding-top: 0% !important;
+}
+/* 
+.custom-nav-item.active{
+  background : red;
+} */
+
+.custom-nav-link{
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 45px;
+}
+
+.custom-nav-link:hover{
+  background: #dba4db;
+  color: #583972 !important;
+}
+
+.custom-nav-small-link{
+  font-size: 15px;
+  font-weight: bold;
+  color:#583972 !important;
+  line-height: 45px;
+}
+
+.custom-nav-small-link:hover{
+  background: #583972;
+  color: #9e729e !important;
+
 }

@@ -9,12 +9,18 @@ import { MedNavComponent } from './med-nav/med-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
+import { CarouselComponentComponent } from './carousel-component/carousel-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MedNavComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponentComponent,
+    FooterComponentComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

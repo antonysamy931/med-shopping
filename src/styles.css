@@ -2,3 +2,42 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import '~material-design-icons/iconfont/material-icons.css';
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+body{    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+35,e0d1e3+59 */
+    background: rgb(224,209,227,1); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(224,209,227,1) 35%, rgba(224,209,227,1) 59%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(224,209,227,1) 35%,rgba(224,209,227,1) 59%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(224,209,227,1) 35%,rgba(224,209,227,1) 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0d1e3', endColorstr='#e0d1e3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+}
+
+.nav-fixed-custom-background{    
+    background: #583972; /* Old browsers */
+    background: -moz-linear-gradient(left, #583972 0%, #583972 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #583972 0%,#583972 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #583972 0%,#583972 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#583972', endColorstr='#583972',GradientType=1 ); /* IE6-9 */
+
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav-custom-background{        
+    background: #9e729e; /* Old browsers */
+    background: -moz-linear-gradient(left, #9e729e 0%, #9e729e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #9e729e 0%,#9e729e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #9e729e 0%,#9e729e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e729e', endColorstr='#9e729e',GradientType=1 ); /* IE6-9 */    
+}
+
+.width-100{
+    width: 100% !important;
+}

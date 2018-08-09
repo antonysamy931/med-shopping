@@ -1,0 +1,28 @@
+<mat-tab-group>
+  <mat-tab label="Login"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <mat-radio-group style="line-height: 50px;" [(ngModel)]="loginTab">
+            <mat-radio-button class="mr-4" value="0">Customer User</mat-radio-button>
+            <mat-radio-button class="mr-4" value="1">Pharma User</mat-radio-button>
+            <mat-radio-button class="mr-4" value="2">Admin User</mat-radio-button>
+          </mat-radio-group>
+        </div>
+      </div>  
+    </div>    
+  </mat-tab>
+  <mat-tab label="Register">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <mat-radio-group style="line-height: 50px;" [(ngModel)]="registerTab">
+            <mat-radio-button class="mr-4" value="0">Customer User</mat-radio-button>
+            <mat-radio-button class="mr-4" value="1">Pharma User</mat-radio-button>
+            <mat-radio-button class="mr-4" value="2">Admin User</mat-radio-button>
+          </mat-radio-group>
+        </div>
+      </div>  
+    </div>
+  </mat-tab>  
+</mat-tab-group>

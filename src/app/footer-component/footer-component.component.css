@@ -1,0 +1,47 @@
+.custom-footer{
+    background: #9e729e;
+    color: #583972 !important;
+}
+.custom-footer a{
+    color: #583972 !important;
+}
+.custom-copyright{
+    background: #583972;
+    line-height: 45px;
+    color: #000000 !important;
+}
+.custom-copyright a{
+    color: #000000 !important;
+}
+.footer-icon{
+    position: relative;
+    top: 7px;
+}
+
+.chat-container{
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    bottom: 110px;
+    right: 25px;
+    background: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.chat-logo{
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    background: #583972;
+    vertical-align: middle;
+    color: #9e729e;
+    cursor: pointer;
+}
+
+.close{
+    cursor: pointer;
+}
