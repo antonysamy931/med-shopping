@@ -19,4 +19,8 @@ export class CommonService {
   public ServiceUrl() : string{
     return localStorage.getItem('serviceurl');
   }
+
+  public GetServiceUrl(url: string) : string{
+    return localStorage.getItem('serviceurl') + url;
+  }
 }
